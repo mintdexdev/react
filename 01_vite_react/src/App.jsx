@@ -1,8 +1,12 @@
-import './App.css'
+import Star from "./Star"
 
 function App() {
   return (
-    <h1>hello stellar with vite</h1>
+    <>
+      <Star />
+      <h2>Stellar</h2>
+      <p>starfalldex</p>
+    </>
   )
 }
 
