@@ -1,6 +1,11 @@
+import Star from "./star.js";
+
 function App() {
   return (
-    <h1>hello stellar</h1>
+    <>
+      <Star />
+      <h2>hello stellar</h2>
+    </>
   );
 }
 
