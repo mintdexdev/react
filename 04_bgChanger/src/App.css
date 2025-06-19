@@ -1,0 +1,12 @@
+body {
+  background-color: #121212;
+  color: #ededed;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(120%);
+}
