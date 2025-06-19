@@ -4,7 +4,7 @@ import './App.css'
 const changeBgColor = (color = "#121212") => {
   document.querySelector('body').style.backgroundColor = color
 }
-export const ColorButton = (props) => {
+export function ColorButton(props) {
 
   return (
     <button onClick={() => changeBgColor(props.color)}
