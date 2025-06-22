@@ -16,4 +16,5 @@ learning react using this repo from "chai aur code"
 - react hooks
   - counter: useState
   - bgChanger: useEffect, useRef, useCallback
+  - currencyConverter: custom hooks
 - about virtaul dom
