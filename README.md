@@ -17,4 +17,5 @@ learning react using this repo from "chai aur code"
   - counter: useState
   - bgChanger: useEffect, useRef, useCallback
   - currencyConverter: custom hooks
+-- react-router
 - about virtaul dom
