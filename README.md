@@ -10,12 +10,12 @@ learning react using this repo from "chai aur code"
 - create React project
   - from create-react-app(now deprecated method)
   - from vite bundler
-- create custom react
-  - how behind react works and made made own react
+  - create custom react: how bts react works and made made own reactlike component
+- about virtaul dom
 - use tailwind
 - react hooks
   - counter: useState
   - bgChanger: useEffect, useRef, useCallback
   - currencyConverter: custom hooks
--- react-router
-- about virtaul dom
+- react-router
+  - route handling
