@@ -1,6 +1,6 @@
 import React from 'react'
-import { Home, Footer, Header } from './components'
 import { Outlet } from 'react-router'
+import { Header, Footer } from './components/index.js'
 
 function Root() {
   return (
