@@ -2,8 +2,8 @@ import React, { useContext, useState } from 'react'
 import UserContext from '../context/UserContext';
 
 function Login() {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState('')
+  const [password, setPassword] = useState('')
 
   const { setUser } = useContext(UserContext);
 
@@ -12,24 +12,36 @@ function Login() {
     setUser({ username, password });
   }
 
+  const formStyle = {
+    backgroundColor: "#121212",
+    width: "fit-content",
+    padding: "20px",
+    display: "flex",
+    flexDirection: "column",
+    gap: "10px",
+    alignItems: "center",
+    border: "1px solid #ffffff38",
+    borderRadius: "10px",
+  }
   return (
-    <div>
-      <h2>Login</h2>
+    <div style={formStyle}>
       <input
         type="text"
-        placeholder='username'
+        placeholder="Username"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
       />
-      {"--"}
-      <input
-        type="text"
-        placeholder='password'
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-      />
 
-      <button onClick={handleSubmit}> Submit</button>
+      <input
+        ype="password"
+        placeholder="Password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)} />
+
+      <button
+        type="submit"
+        onClick={handleSubmit}
+      >Login</button>
     </div>
   )
 }
