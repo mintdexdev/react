@@ -1,4 +1,4 @@
-# notes
+# Notes
 
 ## hooks
 
@@ -16,7 +16,11 @@ useId: generating unique IDs that can be passed to accessibility attributes
 ### fiber
 new reconciliation engine
 'fiber' is a ground up rewrite of the reconciler
-pause work and come back to it later
-assign priority to different types of work
-reuse previously completed work
-assign abort work of its not longer needed
+- pause work and come back to it later
+- assign priority to different types of work
+- reuse previously completed work
+- assign abort work of its not longer needed
+
+## Context API
+  - createContext():
+    - .Provider? provide data to children
