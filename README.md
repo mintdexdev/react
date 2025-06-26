@@ -17,5 +17,10 @@ learning react using this repo from "chai aur code"
   - counter: useState
   - bgChanger: useEffect, useRef, useCallback
   - currencyConverter: custom hooks
-- react-router
+- react-router:: seperate from react
   - route handling
+  - RouterProvider, Route 
+  - createBrowserRouter
+  - createRoutesFromChildren
+  - useLoaderData
+- context api
