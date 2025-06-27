@@ -21,6 +21,10 @@ new reconciliation engine
 - reuse previously completed work
 - assign abort work of its not longer needed
 
-## Context API
+## State Management
+
+ used to avoid prop-drilling
+
+### Context API
   - createContext():
-    - .Provider? provide data to children
+  - .Provider? provide data to children
