@@ -1,13 +1,13 @@
-import './App.css'
-import UserContextProvider from './context/UserContextProvider.jsx'
-import Login from './components/Login.jsx'
-import Profile from './components/Profile.jsx'
-
+import React, { Profiler } from 'react'
+import './App.css';
+import Login from '../components/Login';
+import Profile from '../components/Profile';
+import UserContextProvider from '../context/UserContextProvider.jsx';
 function App() {
   return (
     <UserContextProvider>
-      <h1>Mint Give Freshness</h1>
-      <div style={{ display: "flex", gap: "8px" }}>
+      <h1>Mint gives Freshness</h1>
+      <div style={{ display: "flex", gap: "20px" }}>
         <Login />
         <Profile />
       </div>
