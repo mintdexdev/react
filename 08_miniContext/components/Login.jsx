@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import UserContext from '../context/UserContext';
+import UserContext from '../context/UserContext'
 
 function Login() {
   const [username, setUsername] = useState('')
@@ -9,7 +9,7 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setUser({ username, password });
+    setUser({ username, password })
   }
 
   const formStyle = {
@@ -27,21 +27,23 @@ function Login() {
     <div style={formStyle}>
       <input
         type="text"
-        placeholder="Username"
+        placeholder='username'
         value={username}
         onChange={(e) => setUsername(e.target.value)}
       />
-
       <input
-        ype="password"
-        placeholder="Password"
+        type="text"
+        placeholder='password'
         value={password}
-        onChange={(e) => setPassword(e.target.value)} />
+        onChange={(e) => setPassword(e.target.value)}
+      />
 
       <button
-        type="submit"
         onClick={handleSubmit}
-      >Login</button>
+      >
+        Login
+      </button>
+
     </div>
   )
 }
