@@ -1,26 +1,25 @@
-# React Learning
+# Personal React Learning
 This project is my personal playground and code diary of learning React from "Chai aur Code" on YouTube.
-
 
 This repository contains all the code, mini-projects, and notes. It's my way of tracking my progress as I step into the world of React.
 
 This repository is structured around the core concepts taught in the course. Each folder or project represents a step forward in my learning. 
 
-## Here are the key topics I've covered so far:
-
-## 💻 Tech Stack
+## 💻 Tech Used
 - Core: `React`, `JavaScript`, `HTML`, `CSS`
-- Tooling: `Vite`
 - Styling: `Tailwind CSS`
+- Tooling: `Vite`
+- Routing : `React Router v7`
+- State Management : `Redux Tooklit`
 
-## What did I learn
+## Here are the key topics I've covered so far:
 
 - Fundamental Concepts:
   - Virtual DOM, Fibre, and .
   - Setting up projects with`create-react-app` and Vite Bundler: `create vite@latest`
   - custom react: how react bts likely works and made made own reactlike component
 - Styling:
-  - Integrating and using `Tailwind CSS`;
+  - Intregation of `Tailwind CSS`;
 - core react hooks
   - counter: useState
   - bgChanger: useEffect, useRef, useCallback
@@ -33,4 +32,27 @@ This repository is structured around the core concepts taught in the course. Eac
   - createRoutesFromChildren
   - useLoaderData
 - State Management:
-  - Using the Context API to manage application-wide state.
+  - Context API
+  - Redux Toolkit, React-Redux
+
+
+## 🚀 Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/mintdexdev/learn_react.git
+   ```
+
+2. Navigate to each project folder and follow the instructions using [Vite docs](https://vite.dev/guide/)
+
+3. Parallelly, watch the videos lessons on the ["Cchai aur Code" YouTube channel](https://youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&si=ttfmelo1MXSyEJtm) for a detailed walk-through.
+
+4. Or checkout [Official React Documentation](https://react.dev/)
+
+## 🙏 Acknowledgements
+
+A big thank you to the 'Chai aur Code' Youtube Channel -by Hitesh Choudhary and
+React Community who've provided their resources so anyone can learn for free.
+
+
+>Learnt with passion by Dex

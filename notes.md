@@ -26,5 +26,12 @@ new reconciliation engine
  used to avoid prop-drilling
 
 ### Context API
-  - createContext():
+  - createContext({}):
   - .Provider? provide data to children
+### Redux Toolkit
+  - configureStore({})
+  - createSlice({name, initial state, reducers})
+    - nanoid()
+    - (state, action) => {}
+  -  React Redux
+    - Provider useDispatch, useSelector
