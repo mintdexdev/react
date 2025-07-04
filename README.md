@@ -34,6 +34,11 @@ This repository is structured around the core concepts taught in the course. Eac
 - State Management:
   - Context API
   - Redux Toolkit, React-Redux
+- useing BaaS (backend as a service)
+- Auth
+- Database
+- File Management/Handling
+- CRUD Text
 
 
 ## 🚀 Getting Started
@@ -45,7 +50,7 @@ This repository is structured around the core concepts taught in the course. Eac
 
 2. Navigate to each project folder and follow the instructions using [Vite docs](https://vite.dev/guide/)
 
-3. Parallelly, watch the videos lessons on the ["Cchai aur Code" YouTube channel](https://youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&si=ttfmelo1MXSyEJtm) for a detailed walk-through.
+3. Parallelly, watch the videos lessons on the ["Chai aur Code" YouTube channel](https://youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&si=ttfmelo1MXSyEJtm) for a detailed walk-through.
 
 4. Or checkout [Official React Documentation](https://react.dev/)
 
