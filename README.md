@@ -5,6 +5,10 @@ This repository contains all the code, mini-projects, and notes. It's my way of 
 
 This repository is structured around the core concepts taught in the course. Each folder or project represents a step forward in my learning. 
 
+- >`Folder 12` is the  final project after learning all necessary concept of React basics. From here on new project are practice personal development
+
+Created a full working blogging website with using Baas and deployed on Production
+
 ## 💻 Tech Used
 - Core: `React`, `JavaScript`, `HTML`, `CSS`
 - Styling: `Tailwind CSS`
